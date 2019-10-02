@@ -14,18 +14,22 @@ h1 > {
   text-transform: uppercase;
 }
 
-wrapper {
+.wrapper {
   background-color: #eee8d5;
 }
 
-.dfn {
-  background-color: #b58900;
+.wrapper > .dfn {
+    background-color: #b58900;
 }
 
-strong {
+.wrapper > .dfn strong {
   color: #fff;
 }
 
 h2 {
   color: #93a1a1;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
 }
